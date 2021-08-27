@@ -1,9 +1,13 @@
 <template>
-  <h1>HOME</h1>
+  <Table />
 </template>
 
 <script>
+import Table from "../components/Table";
 export default {
   name: "Home",
+  components: {
+    Table,
+  },
 };
 </script>
